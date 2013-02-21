@@ -21,7 +21,7 @@
 
 - (void)setPhotoDataDictionaries:(NSArray *)photoDataDictionaries
 {
-	_photoDataDictionaries = photoDataDictionaries;
+	_photoDataDictionaries = [photoDataDictionaries sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:FLICKR_PHOTO_TITLE ascending:YES]]];
 	[self.tableView reloadData];
 }
 
@@ -107,6 +107,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	[self.navigationController setNavigationBarHidden:NO animated:YES];
 	// Do any additional setup after loading the view, typically from a nib.
 	//self.navigationItem.leftBarButtonItem = self.editButtonItem;
 	

@@ -217,6 +217,7 @@
 		NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
 		NSArray *photoDictionaries = self.tags[self.sortedTags[indexPath.row]];
         [[segue destinationViewController] setPhotoDataDictionaries:photoDictionaries];
+		[[segue destinationViewController] setTitle:self.sortedTags[indexPath.row]];
     }
 }
 
@@ -243,7 +244,7 @@
 	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-	
+	self.title = @"Tags";
 	[self setupRefreshControl];
 	[self refresh];
 

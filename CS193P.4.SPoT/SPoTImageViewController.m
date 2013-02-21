@@ -48,6 +48,7 @@
 	if (self.detailItem && self.scrollView) {
 		self.scrollView.contentSize = CGSizeZero;
 		self.imageView.image = nil;
+		[self.imageView removeFromSuperview];
 		
 		NSURL *imageURL = [FlickrFetcher urlForPhoto:self.detailItem format:FlickrPhotoFormatLarge];
 		
@@ -69,12 +70,15 @@
 					
 					_scrollView.zoomScale = 1.0;
 					_scrollView.contentSize = image.size;
-					_imageView.image = image;
 					
 					CGRect frame = { CGPointZero , image.size };
 					NSLog(@"\n new CGRect frame:%@ \n ", NSStringFromCGRect(frame));
 					
-					_imageView.frame = frame;
+					_imageView = [[UIImageView alloc] initWithFrame:frame];
+					_imageView.image = image;
+					[self.scrollView addSubview:self.imageView];
+					
+					//_imageView.frame = frame;
 					NSLog(@"\n self.imageView.frame:%@ \n self.imageView.bounds: %@", NSStringFromCGRect(self.imageView.frame), NSStringFromCGRect(self.imageView.bounds));
 				}
 				
@@ -94,17 +98,17 @@
 	
 	[temp removeObject:detailItem];
 	[temp insertObject:detailItem atIndex:0];
-	if (temp.count > 20) [temp removeLastObject];
+	if (temp.count > 15) [temp removeLastObject];
 	
 	[temp writeToFile:plistPath atomically:YES] ? NSLog(@"recentPhotos saved") : NSLog(@"error saving recentPhotos");
 	
 }
 
-- (UIImageView *)imageView
+/*- (UIImageView *)imageView
 {
-	if (!_imageView) _imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
+	if (!_imageView) _imageView = [[UIImageView alloc] init];
 	return _imageView;
-}
+}*/
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
@@ -123,7 +127,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-	[self.scrollView addSubview:self.imageView];
+	self.title = @"Photo";
 	[self.scrollView addSubview:self.activityIndicatorView];
 	self.scrollView.minimumZoomScale = 0.2;
 	self.scrollView.maximumZoomScale = 5.0;
