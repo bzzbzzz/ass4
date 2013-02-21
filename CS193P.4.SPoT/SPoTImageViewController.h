@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SPoTDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface SPoTImageViewController : UIViewController <UISplitViewControllerDelegate, UIScrollViewDelegate>
 
 @property (strong, nonatomic) id detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

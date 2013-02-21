@@ -12,7 +12,14 @@
 
 int main(int argc, char *argv[])
 {
+	int retVal = -1;
+	
 	@autoreleasepool {
-	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([SPoTAppDelegate class]));
+		@try { retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SPoTAppDelegate class])); }
+		@catch (NSException *exception) {
+			NSLog(@"Uncaught exception: %@", exception.description);
+			NSLog(@"Stack trace: %@", [exception callStackSymbols]);
+		}
 	}
+	return retVal;
 }
