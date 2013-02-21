@@ -12,22 +12,15 @@
 
 @end
 
+
 @implementation SPoTRecentPhotosTVC
 
-- (NSArray *)readRecentPhotosList
+@synthesize photoDataDictionaries = _photoDataDictionaries;
+
+- (NSMutableArray *)photoDataDictionaries
 {
-	NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-	NSString *plistPath = [rootPath stringByAppendingPathComponent:@"Data.plist"];
-	if (![[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
-		return @[];
-	}
-	NSMutableArray *temp = [[NSMutableArray alloc] initWithContentsOfFile:plistPath];
-	NSLog(@"read plist");
-	if (temp) return temp;
-	
-	NSLog(@"Error reading plist");
-	return @[];
-	
+	if (!_photoDataDictionaries) _photoDataDictionaries = self.history;
+	return _photoDataDictionaries;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -43,30 +36,39 @@
 {
 	[super viewWillAppear:animated];
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
-	self.photoDataDictionaries = [self readRecentPhotosList];
+
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.title = @"History";
-	// Do any additional setup after loading the view.
+	self.title = @"History";	
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+
+		//[self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
 	
+		[self.photoDataDictionaries removeObjectAtIndex:indexPath.row];
+		
+		[self saveArray:self.photoDataDictionaries];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
+	[self.tableView beginUpdates];
+	[self.tableView reloadData];
+	[self.tableView endUpdates];
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
-	self.photoDataDictionaries = [self readRecentPhotosList];
-	[self.tableView beginUpdates];
-	[self.tableView moveRowAtIndexPath:indexPath toIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
-	[self.tableView endUpdates];
 }
 
 @end

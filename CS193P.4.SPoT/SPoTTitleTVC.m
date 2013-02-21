@@ -12,17 +12,17 @@
 
 #import "FlickrFetcher.h"
 
-@interface SPoTTitleTVC () {
+@interface SPoTTitleTVC ()
 
-}
+  @property (strong, nonatomic) NSString *plistPath;
+
 @end
 
 @implementation SPoTTitleTVC
 
-- (void)setPhotoDataDictionaries:(NSArray *)photoDataDictionaries
+- (void)setPhotoDataDictionaries:(NSMutableArray *)photoDataDictionaries
 {
-	_photoDataDictionaries = [photoDataDictionaries sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:FLICKR_PHOTO_TITLE ascending:YES]]];
-	[self.tableView reloadData];
+	_photoDataDictionaries = [[photoDataDictionaries sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:FLICKR_PHOTO_TITLE ascending:YES]]] mutableCopy];
 }
 
 - (NSString *)titleForRow:(NSInteger)row
@@ -36,6 +36,38 @@
 	return [[self.photoDataDictionaries[row] valueForKeyPath:FLICKR_PHOTO_DESCRIPTION] description];
 }
 
+- (NSString *)plistPath
+{
+	if(!_plistPath) {
+		NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+		_plistPath = [rootPath stringByAppendingPathComponent:@"Data.plist"];
+	}
+	return _plistPath;
+}
+
+- (NSMutableArray *)history
+{
+	if (!_history) _history =  [[NSMutableArray alloc] initWithContentsOfFile:self.plistPath];
+	if (!_history) {
+		NSLog(@"Error reading plist or no plist existing (yet)");
+		_history = [[NSMutableArray alloc] init];
+	}
+	return _history;
+}
+
+- (void)saveArray:(NSMutableArray *)array
+{
+	[array writeToFile:self.plistPath atomically:YES] ? NSLog(@"recentPhotos saved") : NSLog(@"error saving recentPhotos");
+}
+
+- (void)addToHistory:(NSDictionary *)detailItem
+{
+	[self.history removeObject:detailItem];
+	[self.history insertObject:detailItem atIndex:0];
+	if (self.history.count > 20) [self.history removeLastObject];
+	
+	[self saveArray:self.history];
+}
 
 #pragma mark - Table View
 
@@ -58,12 +90,6 @@
 	cell.detailTextLabel.text = [self descriptionForRow:indexPath.row];
 	NSLog(@"%@", [self titleForRow:indexPath.row]);
     return cell;
-}
-
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
 }
 
 
@@ -89,6 +115,7 @@
 		self.detailViewController = (SPoTImageViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
         NSDictionary *photoDataDictionary = self.photoDataDictionaries[indexPath.row];
         self.detailViewController.detailItem = photoDataDictionary;
+		[self addToHistory:photoDataDictionary];
     }
 }
 
@@ -127,6 +154,7 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
          NSDictionary *photoDataDictionary = self.photoDataDictionaries[indexPath.row];
         [[segue destinationViewController] setDetailItem:photoDataDictionary];
+		[self addToHistory:photoDataDictionary];
     }
 }
 

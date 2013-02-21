@@ -215,7 +215,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showTitles"]) {
 		NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-		NSArray *photoDictionaries = self.tags[self.sortedTags[indexPath.row]];
+		NSMutableArray *photoDictionaries = [self.tags[self.sortedTags[indexPath.row]] mutableCopy];
         [[segue destinationViewController] setPhotoDataDictionaries:photoDictionaries];
 		[[segue destinationViewController] setTitle:self.sortedTags[indexPath.row]];
     }

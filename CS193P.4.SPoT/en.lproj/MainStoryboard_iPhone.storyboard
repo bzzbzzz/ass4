@@ -181,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="459" y="64"/>
         </scene>
-        <!--PoT Image View Controller - Detail-->
+        <!--Image View Controller - Detail-->
         <scene sceneID="24">
             <objects>
-                <viewController storyboardIdentifier="" title="Detail" id="21" customClass="SPoTImageViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="" title="Detail" id="21" customClass="ImageViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="22">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -201,7 +201,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="26"/>
                     <connections>
-                        <outlet property="scrollView" destination="0uK-gl-lrT" id="jQk-Fs-gXz"/>
+                        <outlet property="scrollView" destination="0uK-gl-lrT" id="FXH-Pc-imH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
@@ -211,7 +211,6 @@
         <!--Navigation Controller-->
         <scene sceneID="rdI-6E-BQz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z9J-VM-4eC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="Iih-dq-vA3" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="recents" id="Jlv-kv-a5Q"/>
                     <toolbarItems/>
@@ -224,19 +223,20 @@
                         <segue destination="bDc-Cq-ya9" kind="relationship" relationship="rootViewController" id="iEz-To-dQy"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9J-VM-4eC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-323" y="716"/>
         </scene>
     </scenes>
     <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SPoTImageViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPoTImageViewController.h"/>
+        <class className="ImageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImageViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
             </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
         <class className="SPoTRecentPhotosTVC" superclassName="SPoTTitleTVC">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SPoTRecentPhotosTVC.h"/>

@@ -14,8 +14,12 @@
 
   @property (strong, nonatomic) SPoTImageViewController *detailViewController;
 
-  @property (strong, nonatomic) NSArray *photoDataDictionaries;
+  @property (strong, nonatomic) NSMutableArray *photoDataDictionaries;
+  @property (strong, nonatomic) NSMutableArray *history;
 
-- (void)setPhotoDataDictionaries:(NSArray *)photoDataDictionaries;
+- (void)setPhotoDataDictionaries:(NSMutableArray *)photoDataDictionaries;
+
+- (void)saveArray:(NSMutableArray *)array;
+- (void)addToHistory:(NSDictionary *)detailItem;
 
 @end
