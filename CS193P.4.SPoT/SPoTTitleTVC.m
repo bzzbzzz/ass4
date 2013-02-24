@@ -8,8 +8,6 @@
 
 #import "SPoTTitleTVC.h"
 
-#import "SPoTImageViewController.h"
-
 #import "FlickrFetcher.h"
 
 @interface SPoTTitleTVC ()
@@ -112,7 +110,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-		self.detailViewController = (SPoTImageViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+		self.detailViewController = (ImageViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
         NSDictionary *photoDataDictionary = self.photoDataDictionaries[indexPath.row];
         self.detailViewController.detailItem = photoDataDictionary;
 		[self addToHistory:photoDataDictionary];

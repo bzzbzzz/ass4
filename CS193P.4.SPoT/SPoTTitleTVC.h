@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ImageViewController.h"
 
-@class SPoTImageViewController;
+@class ImageViewController;
 
 @interface SPoTTitleTVC : UITableViewController
 
-  @property (strong, nonatomic) SPoTImageViewController *detailViewController;
+  @property (strong, nonatomic) ImageViewController *detailViewController;
 
   @property (strong, nonatomic) NSMutableArray *photoDataDictionaries;
   @property (strong, nonatomic) NSMutableArray *history;
