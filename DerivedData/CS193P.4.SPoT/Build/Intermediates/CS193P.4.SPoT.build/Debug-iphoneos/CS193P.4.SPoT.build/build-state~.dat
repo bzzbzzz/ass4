@@ -1,0 +1,504 @@
+TCS193P.4.SPoT
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Info.plist CS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+cProcessPCH /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT normal armv7
+cGenerateDSYMFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT
+cCopyPNGFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default.png CS193P.4.SPoT/Default.png
+cCopyPNGFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default@2x.png CS193P.4.SPoT/Default@2x.png
+cCopyStringsFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings CS193P.4.SPoT/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default-568h@2x.png CS193P.4.SPoT/Default-568h@2x.png
+cCompileStoryboard /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard
+cProcessProductPackaging "/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision" /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision" /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision
+cTouch /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent
+cCodeSign /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c000000005102E2A90000000000000110
+t1359143593
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c000000005109411200000000000001A7
+t1359560978
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c000000005109411200000000000001E5
+t1359560978
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510941140000000000322700
+t1359560980
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051094114000000000062AD10
+t1359560980
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005109411400000000000015F7
+t1359560980
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510941150000000000000E8D
+t1359560981
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005109411600000000011BCDF0
+t1359560982
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c00000000510941190000000000001B73
+t1359560985
+s7027
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch
+c0000000051249BCD0000000000000143
+t1361353677
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+c000000005111BDB200000000000010FA
+t1360117170
+s4346
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+c0000000051249BCD0000000000000948
+t1361353677
+s2376
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+c000000005124F6F90000000000000C7A
+t1361377017
+s3194
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+c000000005124AD0A00000000000002E0
+t1361358090
+s736
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+c000000005124EBA7000000000000171E
+t1361374119
+s5918
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+c000000005124EDA10000000000000E2E
+t1361374625
+s3630
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/InfoPlist.strings
+c0000000051249BCD000000000000002D
+t1361353677
+s45
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard
+c000000005124F2900000000000004F60
+t1361375888
+s20320
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard
+c000000005124F3910000000000004F91
+t1361376145
+s20369
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+c0000000051249BCD0000000000000154
+t1361353677
+s340
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/CS193P.4.SPoT.LinkFileList
+c000000005124F74300000000000004EA
+t1361377091
+s1258
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.o
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.o
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.o
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.o
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.o
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.o
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.pth
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default.png
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default@2x.png
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Info.plist
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/PkgInfo
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision
+c0000000050EDF0E90000000000001E11
+t1357770985
+s7697
+
+NCS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+c0000000051249BCD000000000000070A
+t1361353677
+s1802
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5359acc32ed5b641^a94ecbc32ed5b641^---0#1#0#--18"Check dependencies36"E39F721B-D6E3-4CE5-B4BE-AC51887FCFA7-
+
+CCodeSign /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app
+s383069893.376260
+e383069893.615306
+r1
+xCodeSign
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CodeSign DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app5d6a60c52ed5b641^7f849dc52ed5b641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/0000000000000000^977"CodeSign DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign d784a3a94f5c43a5b52538411496751cb9bc85b0 --resource-rules=/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist --entitlements /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app36"6331E52B-8405-441A-ADED-25A6360FDFC0-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069892.324084
+e383069892.471639
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m9b1f53c42ed5b641^ae2879c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m0000000000000000^3948"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.o CS193P.4.SPoT/FlickrFetcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/FlickrFetcher.o36"AB4AFDD1-E265-4EC5-8132-0275A4E47F05-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069892.324052
+e383069892.472001
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.ma31d53c42ed5b641^fd2d79c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m0000000000000000^3960"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.o CS193P.4.SPoT/SPoTAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTAppDelegate.o36"DC8BE025-ACC6-4DC4-9EDF-817529E01869-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069892.324028
+e383069892.487975
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m072653c42ed5b641^14eb7cc42ed5b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m0000000000000000^4008"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.o CS193P.4.SPoT/SPoTImageViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTImageViewController.o36"6197C90E-6D56-4E12-A990-2C82FEFFE3C2-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069892.324077
+e383069892.458697
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.mc13953c42ed5b641^f86c75c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m0000000000000000^3984"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.o CS193P.4.SPoT/SPoTRecentPhotosTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTRecentPhotosTVC.o36"7A2E9451-3820-4918-8B2A-682B30B6F8D7-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069892.324059
+e383069892.478906
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m4b1e53c42ed5b641^35987ac42ed5b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m0000000000000000^3930"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.o CS193P.4.SPoT/SPoTTagTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTagTVC.o36"40467035-DE39-4636-A888-DB19DA642F3F-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069892.324068
+e383069892.483587
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m702553c42ed5b641^6ccc7bc42ed5b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m0000000000000000^3942"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.o CS193P.4.SPoT/SPoTTitleTVC.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/SPoTTitleTVC.o36"35E1D79A-1A5D-4B9A-98B9-00D2F003A131-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069892.324027
+e383069892.454269
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.me21e53c42ed5b641^848474c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m0000000000000000^3894"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.o CS193P.4.SPoT/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/main.o36"7DDD68DF-EA1A-4D2C-B59F-33C809BABC1B-
+
+CCompileStoryboard /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard
+s383069892.725606
+e383069893.300078
+r1
+xCompileStoryboard
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboardfad4b9c42ed5b641^d9d14cc52ed5b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^945"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"95E5FF75-D279-47A3-931A-BE97A3B314BD-
+
+CCompileStoryboard /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard
+s383069892.725601
+e383069893.285893
+r1
+xCompileStoryboard
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard80d5b9c42ed5b641^9c3049c52ed5b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^951"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"DABD000A-1801-40DD-A10D-C98A54FAA385-
+
+CCopyPNGFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default-568h@2x.png CS193P.4.SPoT/Default-568h@2x.png
+s383069892.725585
+e383069892.817383
+r1
+xCopyPNGFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default-568h@2x.png
+xCS193P.4.SPoT/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"CopyPNGFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default-568h@2x.png CS193P.4.SPoT/Default-568h@2x.pngd8d4b9c42ed5b641^f23fd1c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default-568h@2x.png0000000000000000^708"CopyPNGFile "DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default-568h@2x.png" "CS193P.4.SPoT/Default-568h@2x.png"    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default-568h@2x.png" "/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default-568h@2x.png"36"2466C186-4F68-4FCB-9E33-85509DC8CF4D-
+
+CCopyPNGFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default.png CS193P.4.SPoT/Default.png
+s383069892.725546
+e383069892.776845
+r1
+xCopyPNGFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default.png
+xCS193P.4.SPoT/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default.png CS193P.4.SPoT/Default.pnge6cdb9c42ed5b641^ecdec6c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default.png0000000000000000^668"CopyPNGFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default.png CS193P.4.SPoT/Default.png    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default.png /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default.png36"A7502DFA-3A32-44AC-8258-5136E13F63ED-
+
+CCopyPNGFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default@2x.png CS193P.4.SPoT/Default@2x.png
+s383069892.725551
+e383069892.803906
+r1
+xCopyPNGFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default@2x.png
+xCS193P.4.SPoT/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"CopyPNGFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default@2x.png CS193P.4.SPoT/Default@2x.png07ceb9c42ed5b641^64cccdc42ed5b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default@2x.png0000000000000000^688"CopyPNGFile "DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default@2x.png" "CS193P.4.SPoT/Default@2x.png"    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default@2x.png" "/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Default@2x.png"36"EBB22976-D667-460B-B7AB-1CF9BA9CF186-
+
+CCopyStringsFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings CS193P.4.SPoT/en.lproj/InfoPlist.strings
+s383069892.725566
+e383069892.732933
+r1
+xCopyStringsFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings
+xCS193P.4.SPoT/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy CS193P.4.SPoT/en.lproj/InfoPlist.stringsd4d1b9c42ed5b641^d7a0bbc42ed5b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/InfoPlist.strings0000000000000000^652"CopyStringsFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings CS193P.4.SPoT/en.lproj/InfoPlist.strings    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/en.lproj -- CS193P.4.SPoT/en.lproj/InfoPlist.strings36"66F14686-06CD-43E7-86C2-2600E6AFA03C-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist
+s383069891.799514
+e383069891.801937
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xDerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist98bdccc32ed5b641^475acec32ed5b641^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist000000000080d041^812"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app36"B3A7EFD5-1A6E-45DD-B6E9-D0BC2AF18E03-
+
+CGenerateDSYMFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT
+s383069892.638798
+e383069892.717425
+r1
+xGenerateDSYMFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Generate /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM289ea3c42ed5b641^5da9b7c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM000000000080d041^772"GenerateDSYMFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app.dSYM36"DF9E8791-AE4E-411C-95CA-AA0C1B5C8260-
+
+CLd /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT normal armv7
+s383069892.494896
+e383069892.627195
+r1
+xLd
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT26c67ec42ed5b641^da8fa0c42ed5b641^---0#0#0#--1266"Ld DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT normal armv7    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos -filelist /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/Objects-normal/armv7/CS193P.4.SPoT.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/CS193P.4.SPoT36"64153472-C918-4609-A4FF-A43D1E913F96-
+
+CProcessInfoPlistFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Info.plist CS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+s383069891.799517
+e383069891.803561
+r1
+xProcessInfoPlistFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Info.plist
+xCS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process CS193P.4.SPoT/CS193P.4.SPoT-Info.plist77bdccc32ed5b641^d15dcec32ed5b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Info.plist0000000000000000^922"ProcessInfoPlistFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Info.plist CS193P.4.SPoT/CS193P.4.SPoT-Info.plist    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CS193P.4.SPoT/CS193P.4.SPoT-Info.plist -genpkginfo /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/ResourceRules.plist -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/Info.plist36"EA3FD859-055D-47AF-A35E-DC53D6CF045B-
+
+CProcessPCH /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069891.811154
+e383069892.317164
+r1
+xProcessPCH
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.pth
+xCS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch8fc4cfc32ed5b641^be3051c42ed5b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch0000000000000000^3805"ProcessPCH DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources/armv7 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.pth -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-dfiwvhuqzshoughcqjbvlsqihycr/CS193P.4.SPoT-Prefix.pch.d36"CA5F9336-85F1-43ED-99EC-DA7223A2A224-
+
+CProcessPCH /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Index/PrecompiledHeaders/CS193P.4.SPoT-Prefix-gxxlhidlvpmuwhdyveywmnhmurgr_ast/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision" /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision
+s383069893.321721
+e383069893.326403
+r1
+xProcessProductPackaging
+x/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection230"ProcessProductPackaging "/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision" DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision869152c52ed5b641^ca6e76c52ed5b641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision0000000000000000^754"ProcessProductPackaging "/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision" DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/FV/Library/MobileDevice/Provisioning Profiles/C88BC7CF-CBA6-4FA5-B5E6-38EE0D9C7BC3.mobileprovision" -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app/embedded.mobileprovision36"E58B04F0-2CD4-4631-AD39-E71FCAA6FD13-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent
+s383069893.358525
+e383069893.368088
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection265"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent54e15bc52ed5b641^712177c52ed5b641^---0#0#0#-19%DVTDocumentLocation2@177"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent000000000080d041^850"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphoneos/CS193P.4.SPoT.build/CS193P.4.SPoT.xcent36"EAA9B5D9-2C9A-4E27-BCD9-232379EF0382-
+
+CTouch /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app
+s383069893.335340
+e383069893.349942
+r1
+xTouch
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Touch /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app4eec55c52ed5b641^197476c52ed5b641^---0#0#0#--453"Touch DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphoneos/CS193P.4.SPoT.app36"A65E5302-D16A-4A7A-A048-D826B8FC428A-
+

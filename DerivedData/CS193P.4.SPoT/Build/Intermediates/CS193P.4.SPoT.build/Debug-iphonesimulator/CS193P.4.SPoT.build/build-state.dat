@@ -1,0 +1,598 @@
+TCS193P.4.SPoT
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Info.plist CS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+cProcessPCH /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c000000005102E2D30000000000000110
+t1359143635
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510941240000000000228FE0
+t1359560996
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005109412600000000003DDFA0
+t1359560998
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005109412600000000000015F7
+t1359560998
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510941280000000000000E8D
+t1359561000
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510941290000000000AB6230
+t1359561001
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000510941320000000000001B73
+t1359561010
+s7027
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch
+c0000000051249BCD0000000000000143
+t1361353677
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrAPIKey.h
+c000000005020ED85000000000000010C
+t1344335237
+s268
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.h
+c0000000051158F77000000000000056B
+t1360367479
+s1387
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+c000000005111BDB200000000000010FA
+t1360117170
+s4346
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.h
+c00000000512622600000000000000135
+t1361453664
+s309
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m
+c0000000051264A770000000000001696
+t1361463927
+s5782
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.h
+c0000000051249BCD0000000000000122
+t1361353677
+s290
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+c0000000051249BCD0000000000000948
+t1361353677
+s2376
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+c0000000051262F4000000000000017BC
+t1361456960
+s6076
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.h
+c0000000051263DC600000000000000EE
+t1361460678
+s238
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+c000000005126525E00000000000006DE
+t1361465950
+s1758
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.h
+c000000005124AD3E00000000000000E4
+t1361358142
+s228
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+c0000000051263DC60000000000001DBE
+t1361460678
+s7614
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.h
+c00000000512643420000000000000283
+t1361462082
+s643
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+c0000000051264342000000000000129E
+t1361462082
+s4766
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/InfoPlist.strings
+c0000000051249BCD000000000000002D
+t1361353677
+s45
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard
+c0000000051262ED7000000000000582D
+t1361456855
+s22573
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard
+c0000000051262260000000000000530C
+t1361453664
+s21260
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+c00000000512544950000000000000220
+t1361396885
+s544
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/CS193P.4.SPoT.LinkFileList
+c000000005129E46F0000000000000510
+t1361699951
+s1296
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.o
+t1361377017
+s20132
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.o
+t1361462601
+s104012
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.o
+t1361377017
+s90040
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTImageViewController.o
+t1361462208
+s106928
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.o
+t1361462208
+s75568
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.o
+t1361462208
+s99576
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.o
+t1361462208
+s91648
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.o
+t1361396885
+s6132
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/FlickrFetcher.plist
+t1361440722
+s382
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTAppDelegate.plist
+t1361440722
+s382
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTImageViewController.plist
+t1361440722
+s382
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTRecentPhotosTVC.plist
+t1361440722
+s382
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTTagTVC.plist
+t1361440722
+s382
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTTitleTVC.plist
+t1361440722
+s382
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/main.plist
+t1361440722
+s382
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.pth
+t1361377017
+s4678520
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch.pth
+t1361440721
+s4678576
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app
+t1361462601
+s306
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app.dSYM
+t1361462601
+s102
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT
+t1361462601
+s97044
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default-568h@2x.png
+t1361377018
+s18594
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default.png
+t1361377018
+s6540
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default@2x.png
+t1361377018
+s16107
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Info.plist
+t1361402206
+s1134
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/PkgInfo
+t1361402206
+s8
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings
+t1361377018
+s42
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1361462211
+s340
+
+N/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1361453668
+s340
+
+NCS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+c00000000512558D70000000000000746
+t1361402071
+s1862
+
+CAnalyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+s383133521.977602
+e383133522.045151
+r1
+xAnalyze
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m7367fa5127d6b641^7a8f0b5227d6b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m0000000000000000^4248"Analyze CS193P.4.SPoT/FlickrFetcher.m    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/FlickrFetcher.d --analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/FlickrFetcher.plist36"3282EC37-A3F1-4C35-A11E-D76361AD2656-
+
+CAnalyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+s383133521.977564
+e383133522.040563
+r1
+xAnalyze
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.mdb6afa5127d6b641^bb620a5227d6b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m0000000000000000^4256"Analyze CS193P.4.SPoT/SPoTAppDelegate.m    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTAppDelegate.d --analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTAppDelegate.plist36"932B9D8C-54A9-46ED-9471-02EB52D1A8D6-
+
+CAnalyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+s383133521.977584
+e383133522.101412
+r1
+xAnalyze
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.mf660fa5127d6b641^baf6195227d6b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m0000000000000000^4288"Analyze CS193P.4.SPoT/SPoTImageViewController.m    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTImageViewController.d --analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTImageViewController.plist36"B4C6DE69-F548-45E2-9DA8-FC6568C9F04A-
+
+CAnalyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+s383133521.977596
+e383133522.044094
+r1
+xAnalyze
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m9d65fa5127d6b641^cf490b5227d6b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m0000000000000000^4272"Analyze CS193P.4.SPoT/SPoTRecentPhotosTVC.m    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTRecentPhotosTVC.d --analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTRecentPhotosTVC.plist36"55264985-F62A-4215-8077-E8D2FD51ACC5-
+
+CAnalyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+s383133521.977616
+e383133522.300139
+r1
+xAnalyze
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m016afa5127d6b641^6fd64c5227d6b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m0000000000000000^4236"Analyze CS193P.4.SPoT/SPoTTagTVC.m    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTTagTVC.d --analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTTagTVC.plist36"C00EDA0A-7931-4CB9-84A8-E3415D781221-
+
+CAnalyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+s383133521.977542
+e383133522.047252
+r1
+xAnalyze
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m7f68fa5127d6b641^a4180c5227d6b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m0000000000000000^4244"Analyze CS193P.4.SPoT/SPoTTitleTVC.m    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTTitleTVC.d --analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/SPoTTitleTVC.plist36"74C08996-557E-4D27-A4CD-3D7BD4F2D483-
+
+CAnalyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+s383133521.977526
+e383133522.028552
+r1
+xAnalyze
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.md061fa5127d6b641^f84f075227d6b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m0000000000000000^4212"Analyze CS193P.4.SPoT/main.m    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/main.d --analyze /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug/CS193P.4.SPoT.build/StaticAnalyzer/normal/i386/main.plist36"B1802F33-24FE-4BB9-8D16-D6610CACE071-
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+r0
+
+CBuild AST from /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies724d4def1bdab641^8b4f59ef1bdab641^---0#1#0#--18"Check dependencies36"DD7C6F24-A5C9-4135-8C5E-56421C42108B-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069817.778725
+e383069817.946108
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.maa7cc7792ed5b641^7e3af2792ed5b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m0000000000000000^4121"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.o CS193P.4.SPoT/FlickrFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/FlickrFetcher.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/FlickrFetcher.o36"5825863F-E16E-48C0-B031-638EEF1D454A-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383392751.371130
+e383392751.535187
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m904c5fef1bdab641^b00189ef1bdab641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m0000000000000000^4157"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.o CS193P.4.SPoT/ImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/ImageViewController.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/ImageViewController.o36"E69E6CBA-5D85-4AA5-B017-408C3D673053-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069817.778596
+e383069817.949738
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m077bc7792ed5b641^3200f4792ed5b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m0000000000000000^4133"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.o CS193P.4.SPoT/SPoTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTAppDelegate.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTAppDelegate.o36"7817187A-1047-4B4A-AE8C-F9A81802BA96-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTImageViewController.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383155008.523408
+e383155008.809459
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTImageViewController.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.mfe4786407bd6b641^ee3ecf407bd6b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m0000000000000000^4181"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTImageViewController.o CS193P.4.SPoT/SPoTImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTImageViewController.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTImageViewController.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTImageViewController.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTImageViewController.o36"AF61FC3C-5C20-4897-9010-959409B38063-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383392751.368600
+e383392751.535236
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m520d5fef1bdab641^d80b89ef1bdab641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m0000000000000000^4157"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.o CS193P.4.SPoT/SPoTRecentPhotosTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTRecentPhotosTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTRecentPhotosTVC.o36"8A82E6D9-D5AC-4385-AEB4-EFE491CC58AC-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383155008.523394
+e383155008.800342
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m244386407bd6b641^7ae3cc407bd6b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m0000000000000000^4103"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.o CS193P.4.SPoT/SPoTTagTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTagTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTagTVC.o36"30842101-E58C-4AD3-BA93-4CE6F12C9DE8-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383392751.371134
+e383392751.434253
+r0
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m:11:9: fatal error: 'SPoTImageViewController.h' file not found
+o#import "SPoTImageViewController.h"
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.mb24c5fef1bdab641^af266fef1bdab641^-197"/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m:11:9: fatal error: 'SPoTImageViewController.h' file not found#import "SPoTImageViewController.h"        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@42"'SPoTImageViewController.h' file not found-383392751#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m0000000000000000^10#8#10#8#188#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m0000000000000000^4115"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.o CS193P.4.SPoT/SPoTTitleTVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/SPoTTitleTVC.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/SPoTTitleTVC.o36"4CF4A248-4427-4514-9426-EFE65F3E18CA-
+
+CCompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.o /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383089685.672238
+e383089685.970261
+r1
+xCompileC
+xDerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.o
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m586fac157cd5b641^b262f8157cd5b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m0000000000000000^4067"CompileC DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.o CS193P.4.SPoT/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -include /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/main.m -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/main.o36"F5D6FC60-BFCE-4449-B8FF-17BFBACE4B9A-
+
+CCompileStoryboard /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard
+s383155009.063228
+e383155011.598978
+r1
+xCompileStoryboard
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard3a5710417bd6b641^695799437bd6b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^1018"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"EF71C81E-0DEB-4B13-B191-AC8BA11917B9-
+
+CCompileStoryboard /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard
+s383146466.019596
+e383146468.439576
+r1
+xCompileStoryboard
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard5d3705e259d6b641^bb9a70e459d6b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1024"CompileStoryboard CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"79A62C8C-1688-4407-A72F-BA84EE536F68-
+
+CCopyStringsFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings CS193P.4.SPoT/en.lproj/InfoPlist.strings
+s383069818.107105
+e383069818.109727
+r1
+xCopyStringsFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings
+xCS193P.4.SPoT/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy CS193P.4.SPoT/en.lproj/InfoPlist.strings2c821b7a2ed5b641^98171c7a2ed5b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/en.lproj/InfoPlist.strings0000000000000000^673"CopyStringsFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj/InfoPlist.strings CS193P.4.SPoT/en.lproj/InfoPlist.strings    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/en.lproj -- CS193P.4.SPoT/en.lproj/InfoPlist.strings36"C7E5B481-4C93-480A-8B24-E438EEF364A0-
+
+CCpResource CS193P.4.SPoT/Default-568h@2x.png DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default-568h@2x.png
+s383069818.107117
+e383069818.116170
+r1
+xCpResource
+xCS193P.4.SPoT/Default-568h@2x.png
+xDerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default-568h@2x.pnge4821b7a2ed5b641^4d131e7a2ed5b641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default-568h@2x.png000000000080d041^704"CpResource "CS193P.4.SPoT/Default-568h@2x.png" "DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default-568h@2x.png"    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default-568h@2x.png" /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app36"BE024E5D-0C7E-4DF3-82ED-FF569316C1A3-
+
+CCpResource CS193P.4.SPoT/Default.png DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default.png
+s383069818.107096
+e383069818.121678
+r1
+xCpResource
+xCS193P.4.SPoT/Default.png
+xDerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default.pngae831b7a2ed5b641^d1961f7a2ed5b641^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default.png000000000080d041^674"CpResource CS193P.4.SPoT/Default.png DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default.png    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default.png /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app36"A19A79C2-4006-4BD8-B597-3F30FEFBBD16-
+
+CCpResource CS193P.4.SPoT/Default@2x.png DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default@2x.png
+s383069818.107124
+e383069818.110809
+r1
+xCpResource
+xCS193P.4.SPoT/Default@2x.png
+xDerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default@2x.png1b821b7a2ed5b641^5f5e1c7a2ed5b641^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default@2x.png000000000080d041^689"CpResource "CS193P.4.SPoT/Default@2x.png" "DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Default@2x.png"    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/Default@2x.png" /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app36"79EE5E82-F63B-430B-B34D-D2D89887B1E4-
+
+CGenerateDSYMFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app.dSYM /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT
+s383155401.562115
+e383155401.624042
+r1
+xGenerateDSYMFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app.dSYM
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Generate /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app.dSYM810990c97cd6b641^4dc09fc97cd6b641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app.dSYM/0000000000000000^807"GenerateDSYMFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app.dSYM DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app.dSYM36"56C7EC5C-31B7-4EB4-BC60-9B5A17C1C85A-
+
+CLd /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT normal i386
+s383155401.345594
+e383155401.555637
+r1
+xLd
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Link /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT689258c97cd6b641^1d3d8ec97cd6b641^---0#0#0#--1379"Ld DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT normal i386    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -filelist /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/Objects-normal/i386/CS193P.4.SPoT.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/CS193P.4.SPoT36"C404823A-9842-45D5-9D43-ED6298C6AAB9-
+
+CProcessInfoPlistFile /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Info.plist CS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+s383095006.213658
+e383095006.219175
+r1
+xProcessInfoPlistFile
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Info.plist
+xCS193P.4.SPoT/CS193P.4.SPoT-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process CS193P.4.SPoT/CS193P.4.SPoT-Info.plist6ac236de90d5b641^74993ade90d5b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Info.plist0000000000000000^803"ProcessInfoPlistFile DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Info.plist CS193P.4.SPoT/CS193P.4.SPoT-Info.plist    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CS193P.4.SPoT/CS193P.4.SPoT-Info.plist -genpkginfo /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app/Info.plist36"7099C113-60BF-4706-9023-D96B28543CC2-
+
+CProcessPCH /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383069817.354202
+e383069817.772025
+r1
+xProcessPCH
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.pth
+xCS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch8dd15a792ed5b641^6ea3c5792ed5b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch0000000000000000^3954"ProcessPCH DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.dia -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.pth -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-bekagbfybrdvcwalfakijfmbnpsg/CS193P.4.SPoT-Prefix.pch.d36"43093953-147C-4337-93D6-3A578019D650-
+
+CProcessPCH /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s383133521.705616
+e383133521.970490
+r1
+xProcessPCH
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch.pth
+xCS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pchf4c3b45127d6b641^4374f85127d6b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch0000000000000000^4324"ProcessPCH DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=6.1 -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-generated-files.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-own-target-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-all-target-headers.hmap -iquote /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/CS193P.4.SPoT-project-headers.hmap -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources/i386 -I/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/CS193P.4.SPoT.build/Debug-iphonesimulator/CS193P.4.SPoT.build/DerivedSources -F/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator -D__clang_analyzer__ -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch -o /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch.pth -MMD -MT dependencies -MF /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Intermediates/PrecompiledHeaders/CS193P.4.SPoT-Prefix-ggjmbfeyassrgufgruspupzcyanx/CS193P.4.SPoT-Prefix.pch.d36"FDC6FE68-5965-4591-BEE8-E50612F654FB-
+
+CProcessPCH /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Index/PrecompiledHeaders/CS193P.4.SPoT-Prefix-eotzixvawjwkdhdhmluuedismnso_ast/CS193P.4.SPoT-Prefix.pch.pth CS193P.4.SPoT/CS193P.4.SPoT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app
+s383155401.640572
+e383155401.652183
+r1
+xTouch
+x/Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Touch /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app880fa4c97cd6b641^a9f5a6c97cd6b641^---0#0#0#--474"Touch DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app    cd /Users/FV/Developer/CS193P/CS193P.4.SPoT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/FV/Developer/CS193P/CS193P.4.SPoT/DerivedData/CS193P.4.SPoT/Build/Products/Debug-iphonesimulator/CS193P.4.SPoT.app36"F1D481E1-665D-4118-84D2-B45763A1B639-
+
