@@ -24,6 +24,8 @@
 @implementation ImageViewController
 
 
+# pragma mark - Accessors
+
 - (void)setDetailItem:(id)newDetailItem
 {
     if (_detailItem != newDetailItem) {
@@ -42,6 +44,15 @@
     if (!_imageView) _imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
     return _imageView;
 }
+
+- (UIActivityIndicatorView *)activityIndicatorView
+{
+	if (!_activityIndicatorView) _activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+	return _activityIndicatorView;
+}
+
+
+# pragma mark - ScrollView / ImageView
 
 // fetches the data from the URL
 // turns it into an image
@@ -84,20 +95,24 @@
 {
 	if (self.imageView.image) {
 		
-		float heightRatio = self.imageView.frame.size.height / self.imageView.bounds.size.height;
-		float widthRatio = self.scrollView.superview.bounds.size.width / self.imageView.bounds.size.width;
-		if (([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) && self.interfaceOrientation == (UIDeviceOrientationLandscapeLeft | UIInterfaceOrientationLandscapeRight)) {
-			widthRatio = self.scrollView.superview.bounds.size.width / (self.imageView.bounds.size.width - [[[[self.splitViewController.viewControllers objectAtIndex:0] viewControllers] lastObject] topViewController].view.bounds.size.width );
-		}
-		
-				[self.scrollView zoomToRect:self.imageView.bounds animated:YES];
+		float heightRatio = self.view.bounds.size.height / self.imageView.bounds.size.height;
+		float widthRatio = self.view.bounds.size.width / self.imageView.bounds.size.width;
+		/*
+		 if (([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) && self.interfaceOrientation == (UIDeviceOrientationLandscapeLeft | UIInterfaceOrientationLandscapeRight)) {
+		 widthRatio = self.view.bounds.size.width / (self.imageView.bounds.size.width - [[[[self.splitViewController.viewControllers objectAtIndex:0] viewControllers] lastObject] topViewController].view.bounds.size.width );
+		 }
+		 */
 		
 		self.scrollView.minimumZoomScale = MIN(heightRatio, widthRatio);
+		
+		[self.scrollView zoomToRect:self.imageView.bounds animated:YES];
+		
 		NSLog(@"\n self.imageView.frame:%@ \n self.imageView.bounds: %@", NSStringFromCGRect(self.imageView.frame), NSStringFromCGRect(self.imageView.bounds));
 		NSLog(@"\n scr.frame:%@ \n scr.bounds: %@", NSStringFromCGRect(self.scrollView.frame), NSStringFromCGRect(self.scrollView.bounds));
 		
 	} else { self.activityIndicatorView.center = self.scrollView.center; }
 }
+
 
 
 
@@ -108,12 +123,6 @@
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
     return self.imageView;
-}
-
-- (UIActivityIndicatorView *)activityIndicatorView
-{
-	if (!_activityIndicatorView) _activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-	return _activityIndicatorView;
 }
 
 #pragma mark - ViewController Lifecycle
@@ -132,8 +141,6 @@
     self.scrollView.minimumZoomScale = 0.2;
     self.scrollView.maximumZoomScale = 5.0;
     self.scrollView.delegate = self;
-
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(resetImage) name:@"com.fxv.spot.imageupdated" object:nil];
 }
 
 - (void)viewDidLayoutSubviews

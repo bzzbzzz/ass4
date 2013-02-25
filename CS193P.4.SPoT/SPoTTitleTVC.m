@@ -150,9 +150,12 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-         NSDictionary *photoDataDictionary = self.photoDataDictionaries[indexPath.row];
-        [[segue destinationViewController] setDetailItem:photoDataDictionary];
+		NSDictionary *photoDataDictionary = self.photoDataDictionaries[indexPath.row];
 		[self addToHistory:photoDataDictionary];
+		
+		ImageViewController *imageViewController = (ImageViewController *)[segue destinationViewController];
+        imageViewController.detailItem = photoDataDictionary;
+		imageViewController.hidesBottomBarWhenPushed = YES;
     }
 }
 
