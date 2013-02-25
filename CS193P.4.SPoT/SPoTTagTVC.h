@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SPoTTagTVC : UITableViewController
-//test
+
+  @property (strong, nonatomic) NSArray *photoDataDictionaries;
+
 @end

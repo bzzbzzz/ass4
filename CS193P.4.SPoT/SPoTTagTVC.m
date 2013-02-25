@@ -11,17 +11,23 @@
 
 @interface SPoTTagTVC ()
 
-  @property (strong, nonatomic) NSArray *photoDataDictionaries;
-  @property (strong, nonatomic) NSMutableDictionary *tags;
+  @property (strong, nonatomic) NSMutableDictionary *photosForTagDictionary;
   @property (strong, nonatomic) NSArray *sortedTags;
 
 @end
 
 @implementation SPoTTagTVC
 
-#define EXPECTED_NUMBER_OF_TAGS 50
 
-  @synthesize tags = _tags;
+#define EXPECTED_NUMBER_OF_TAGS 15
+#define TAGS_TO_EXCLUDE_SEPARATED_BY_SPACE @"cs193pspot portrait landscape"
+
+
+//----------------------------------------------------------------
+# pragma mark   -   Accessors
+//----------------------------------------------------------------
+
+  @synthesize photosForTagDictionary = _photosForTagDictionary;
 
 - (void)setPhotoDataDictionaries:(NSArray *)photoDataDictionaries
 {
@@ -34,15 +40,15 @@
 	[self performSelector:@selector(stopRefreshing) withObject:nil afterDelay:0.5];
 }
 
-- (NSMutableDictionary *)tags
+- (NSMutableDictionary *)photosForTagDictionary
 {
-	if (!_tags) _tags = [[NSMutableDictionary alloc] initWithCapacity:EXPECTED_NUMBER_OF_TAGS];
-	return _tags;
+	if (!_photosForTagDictionary) _photosForTagDictionary = [[NSMutableDictionary alloc] initWithCapacity:EXPECTED_NUMBER_OF_TAGS];
+	return _photosForTagDictionary;
 }
-- (void)setTags:(NSMutableDictionary *)tags
+- (void)setPhotosForTagDictionary:(NSMutableDictionary *)photosForTagDictionary
 {
-	if (![_tags isEqualToDictionary:tags]) {
-		_tags = tags;
+	if (![_photosForTagDictionary isEqualToDictionary:photosForTagDictionary]) {
+		_photosForTagDictionary = photosForTagDictionary;
 	}
 }
 
@@ -54,32 +60,34 @@
 
 - (void)generateListOfTags {
 	
-	NSArray *tagsNotToInclude = @[@"cs193pspot", @"portrait", @"landscape"];
+	NSArray *tagsToExclude = [TAGS_TO_EXCLUDE_SEPARATED_BY_SPACE componentsSeparatedByString:@" "];
 	
 	for (NSDictionary *photoDataDictionary in self.photoDataDictionaries) {
 		
 		NSArray *tagsOfPhoto = [[photoDataDictionary valueForKey:FLICKR_TAGS] componentsSeparatedByString:@" "];
 		for (NSString *photoTag in tagsOfPhoto) {
 			
-			if (![tagsNotToInclude containsObject:photoTag]) {
+			if (![tagsToExclude containsObject:photoTag]) {
 
-				if ([[self.tags allKeys] containsObject:photoTag]) {
-					[self.tags[photoTag] addObject:photoDataDictionary];
+				if ([[self.photosForTagDictionary allKeys] containsObject:photoTag]) {
+					[self.photosForTagDictionary[photoTag] addObject:photoDataDictionary];
 				}else{
 					NSMutableArray *photos = [NSMutableArray arrayWithObject:photoDataDictionary];
-					[self.tags setValue:photos forKey:photoTag];
+					[self.photosForTagDictionary setValue:photos forKey:photoTag];
 				}
 			}
 		}
 	}
 	
-	self.sortedTags = [[self.tags allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+	self.sortedTags = [[self.photosForTagDictionary allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
 	
 	[self.tableView reloadData];
 }
 
 
-#pragma mark - Table view data source
+//----------------------------------------------------------------
+# pragma mark   - Table view data source
+//----------------------------------------------------------------
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -101,7 +109,7 @@
     
 	NSString *tag = self.sortedTags[indexPath.row];
 	cell.textLabel.text = [tag capitalizedString];
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i photos",[self.tags[tag] count]];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i photos",[self.photosForTagDictionary[tag] count]];
     // Configure the cell...
     
     return cell;
@@ -112,18 +120,19 @@
 	UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
 	[refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
 	self.refreshControl = refreshControl;
+	
 	[self.refreshControl beginRefreshing];
 }
 
 - (void)refresh
 {
 	//set the title while refreshing
-    self.refreshControl.attributedTitle = [[NSAttributedString alloc]initWithString:@"Refreshing the TableView"];
+    self.refreshControl.attributedTitle = [[NSAttributedString alloc] initWithString:@"Refreshing the TableView"];
     //set the date and time of refreshing
-    NSDateFormatter *formattedDate = [[NSDateFormatter alloc]init];
+    NSDateFormatter *formattedDate = [[NSDateFormatter alloc] init];
     [formattedDate setDateFormat:@"MMM d, h:mm a"];
     NSString *lastupdated = [NSString stringWithFormat:@"Last Updated on %@",[formattedDate stringFromDate:[NSDate date]]];
-    self.refreshControl.attributedTitle = [[NSAttributedString alloc]initWithString:lastupdated];
+    self.refreshControl.attributedTitle = [[NSAttributedString alloc] initWithString:lastupdated];
 	
 	__block NSArray *newPhotos = @[];
 	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -140,7 +149,7 @@
 
 - (void)showActivityIndicator
 {
-	CGPoint newOffset = CGPointMake(0, -60);//[self.tableView contentInset].top);
+	CGPoint newOffset = CGPointMake(0, self.tableView.tableHeaderView.bounds.size.height); //60
 	[self.tableView setContentOffset:newOffset animated:YES];
 }
 
@@ -191,8 +200,10 @@
 }
 */
 
-#pragma mark - Table view delegate
 
+//----------------------------------------------------------------
+# pragma mark   -   Table view delegate
+//----------------------------------------------------------------
 
 /*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -211,19 +222,24 @@
 }
 */
 
+
+//----------------------------------------------------------------
+# pragma mark   -   ViewController Lifecycle
+//----------------------------------------------------------------
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showTitles"]) {
 		NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-		NSMutableArray *photoDictionaries = [self.tags[self.sortedTags[indexPath.row]] mutableCopy];
+		
+		//get key at indexPath of sortedTags array
+		//get all photoDictionaries for the tag(key) and make that array mutable
+		NSMutableArray *photoDictionaries = [self.photosForTagDictionary[self.sortedTags[indexPath.row]] mutableCopy];
         [[segue destinationViewController] setPhotoDataDictionaries:photoDictionaries];
 		[[segue destinationViewController] setTitle:self.sortedTags[indexPath.row]];
     }
 }
-
-
-
-#pragma mark - ViewController Lifecycle
 
 
 - (id)initWithStyle:(UITableViewStyle)style

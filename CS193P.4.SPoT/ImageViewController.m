@@ -13,6 +13,7 @@
 
   @property (strong, nonatomic) UIPopoverController *masterPopoverController;
   @property (strong, nonatomic) UIActivityIndicatorView *activityIndicatorView;
+
   @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
   @property (strong, nonatomic) UIImageView *imageView;
@@ -24,7 +25,9 @@
 @implementation ImageViewController
 
 
-# pragma mark - Accessors
+//----------------------------------------------------------------
+# pragma mark   -   Accessors
+//----------------------------------------------------------------
 
 - (void)setDetailItem:(id)newDetailItem
 {
@@ -52,7 +55,9 @@
 }
 
 
-# pragma mark - ScrollView / ImageView
+//----------------------------------------------------------------
+# pragma mark   -   ScrollView / ImageView
+//----------------------------------------------------------------
 
 // fetches the data from the URL
 // turns it into an image
@@ -114,8 +119,6 @@
 }
 
 
-
-
 // returns the view which will be zoomed when the user pinches
 // in this case, it is the image view, obviously
 // (there are no other subviews of the scroll view in its content area)
@@ -125,7 +128,10 @@
     return self.imageView;
 }
 
-#pragma mark - ViewController Lifecycle
+
+//----------------------------------------------------------------
+# pragma mark   -   ViewController Lifecycle
+//----------------------------------------------------------------
 
 // add the image view to the scroll view's content area
 // setup zooming by setting min and max zoom scale
@@ -138,8 +144,8 @@
 	self.title = @"Photo";
     [self.scrollView addSubview:self.imageView];
 	[self.scrollView addSubview:self.activityIndicatorView];
-    self.scrollView.minimumZoomScale = 0.2;
-    self.scrollView.maximumZoomScale = 5.0;
+    self.scrollView.minimumZoomScale = 0.2; //temporary
+    self.scrollView.maximumZoomScale = 5.0; //temporary
     self.scrollView.delegate = self;
 }
 

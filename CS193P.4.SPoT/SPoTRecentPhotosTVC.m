@@ -17,37 +17,21 @@
 
 @synthesize photoDataDictionaries = _photoDataDictionaries;
 
+# pragma mark - Accessors
+
 - (NSMutableArray *)photoDataDictionaries
 {
 	if (!_photoDataDictionaries) _photoDataDictionaries = self.history;
 	return _photoDataDictionaries;
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
-- (void)viewWillAppear:(BOOL)animated
-{
-	[super viewWillAppear:animated];
-	[self.navigationController setNavigationBarHidden:NO animated:NO];
+# pragma mark - TableView
 
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	self.title = @"History";	
-}
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-
+		
 		[self.photoDataDictionaries removeObjectAtIndex:indexPath.row];
 		[self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
 		
@@ -61,13 +45,16 @@
 	[self.tableView beginUpdates];
 	[self.tableView reloadData];
 	[self.tableView endUpdates];
-
+	
 }
 
-- (void)didReceiveMemoryWarning
+# pragma mark - ViewController Lifecycle
+
+- (void)viewDidLoad
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewDidLoad];
+	self.title = @"History";
 }
+
 
 @end
