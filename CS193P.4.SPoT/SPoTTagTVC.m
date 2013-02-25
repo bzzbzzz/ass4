@@ -109,7 +109,10 @@
     
 	NSString *tag = self.sortedTags[indexPath.row];
 	cell.textLabel.text = [tag capitalizedString];
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i photos",[self.photosForTagDictionary[tag] count]];
+	NSInteger numberOfPhotos = [self.photosForTagDictionary[tag] count];
+	NSString *numberOfPhotosString = [NSString stringWithFormat:@"%i photo", numberOfPhotos];
+
+	cell.detailTextLabel.text = (numberOfPhotos < 2) ? numberOfPhotosString : [numberOfPhotosString stringByAppendingString:@"s"];
     // Configure the cell...
     
     return cell;
